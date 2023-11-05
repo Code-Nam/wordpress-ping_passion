@@ -1,0 +1,85 @@
+.site-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 5px solid #4a5e81;
+}
+
+.site-branding {
+	text-align: center;
+	width: 100%;
+	letter-spacing: 0.1rem;
+}
+
+.site-branding img{
+	width: 80%;
+	height: 175px;
+}
+
+.site-branding a {
+	color: #4a5e81;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.site-branding a:visited {
+	color: #4a5e81;
+}
+
+.header-menu {
+	font-family: "PingPong", sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.menu-item li a {
+	color: #4a5e81;
+	padding: 10px;
+	border: 1px solid #4a5e81;
+}
+
+.menu-item a:hover {
+	color: #4a5e81;
+}
+
+.menu-item a:visited {
+	color: #4a5e81;
+}
+
+.sub-menu {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+.main-navigation ul ul a {
+	width: 170px !important;
+}
+
+@media screen and (max-width: 782px) {
+	.header-menu {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.header-menu > li {
+		font-weight: bold;
+		margin-bottom: 25px;
+	}
+
+	.main-navigation ul ul {
+		position: static !important;
+		box-shadow: none !important;
+		font-weight: lighter;
+		font-size: smaller;
+	}
+
+	.menu-item li a {
+		padding: 10px;
+		border: none;
+		background-color: #e0ded763;
+	}
+}

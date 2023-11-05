@@ -1,0 +1,34 @@
+.single-revetement-card {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 782px) {
+  .single-revetement-card{
+    flex-wrap: wrap;
+  }
+}
+
+.single-revetement-card img {
+  height: 400px;
+  width: 400px;
+	margin: 25px;
+}
+
+.single-revetement-card_content {
+  margin-inline: 40px;
+	text-align: justify;
+}
+
+.single-revetement-card section{
+  font-size: smaller;
+}
+
+.single-revetement-card_content p {
+	font-weight: lighter;
+}
+
+.single-revetement-card_content h2 {
+  text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}

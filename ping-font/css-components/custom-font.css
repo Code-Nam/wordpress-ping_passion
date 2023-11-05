@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'PingPong';
+  src:url('../PingPong/PingPong.woff') format('woff'),
+        url('../PingPong/PingPong.woff2') format('woff2'),
+        url('../PingPong/PingPong.svg#PingPong') format('svg'),
+        url('../PingPong/PingPong.eot'),
+        url('../PingPong/PingPong.eot?#iefix') format('embedded-opentype'),
+        url('../PingPong/PingPong.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

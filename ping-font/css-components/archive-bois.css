@@ -1,0 +1,55 @@
+
+.page-header{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.bois-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+@media screen and (max-width: 782px){
+  .bois-wrapper{
+    grid-template-columns: 1fr;
+  }
+}
+
+.bois-wrapper .bois-card{
+  border: 1px solid #e0ded763;
+  border-radius: 25px;
+  background-color:	#755539;
+  text-align: center;
+  box-shadow: 0px 0px 3px 1px #000000;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bois-card_content{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  height: 100%;
+}
+
+.bois-wrapper .bois-card img{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 100%;
+}
+
+
+.bois-wrapper .bois-card a{
+  background-color: white;
+  color: #60afe7;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+}
+

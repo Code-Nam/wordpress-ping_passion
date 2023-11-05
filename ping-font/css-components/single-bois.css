@@ -1,0 +1,29 @@
+.single-bois-card {
+	display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 782px) {
+  .single-bois-card{
+    flex-wrap: wrap;
+  }
+}
+
+.single-bois-card img {
+	height: 400px;
+  width: 400px;
+	margin: 25px;
+}
+
+.single-bois-card_content {
+	margin: 25px;
+	text-align: justify;
+}
+
+.single-bois-card_content p {
+	font-weight: lighter;
+}
+
+.single-bois-card_content h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
